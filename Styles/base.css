@@ -1,0 +1,129 @@
+nav, header{
+  background-color: #101033;
+}
+
+nav{
+  border-bottom: 2px solid white;
+}
+
+nav li:hover{
+  color: #FFDF4F;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #000000;
+  border-top: white 2px solid; 
+  color: white;
+
+  font: 12px Lato, sans-serif;
+    padding:  20px;
+  padding-bottom: 60px;
+}
+
+
+footer p.Popups:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+ul pre{
+  display: inline;
+}
+
+
+.Centro_Pagina{
+  width: 70%;
+  background-color: white;
+  padding-bottom: 34em;
+  margin: auto;
+}
+
+.Fondo_Arreglado{
+    background-image: url('../src/galaxy-space-nebula-atmosphere-universe-ART-611568-wallhere.com.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.footer_1{
+  margin-top: 25px;
+  float: right;
+}
+
+.footer_2{
+  float: left;
+}
+
+
+.Titulo_Pagina pre{
+  display:inline-block;
+  font: 22px arial, sans-serif;
+  font-style: bold;
+  padding-left: 2.4em;
+  color: white;
+  font-weight: 700;
+}
+
+
+.Titulo_Pagina pre:hover{
+  cursor: help;
+}
+
+.Titulo_Pagina{
+  text-align: center;
+  color: white;
+}
+
+.Logo{
+  display: inline;
+  width: 10%;
+}
+
+
+
+/*
+.Titulo_Pagina pre{
+  float: right;
+  font: 22px arial, sans-serif;
+  font-style: bold;
+  color: white;
+  font-weight: 700;
+
+  padding-right: 16em;
+  padding-top: 2em;
+}
+
+.Titulo_Pagina{
+  text-align: center;
+  color: white;
+  padding-bottom: 85px;
+}
+
+.Logo{
+  display: inline;
+  width: 10%;
+  float: left;
+  padding-left: 24em;
+}
+*/
+.navegacion li, .navegacion ul{
+  display: inline;
+  color: white;
+  font: 18px arial, sans-serif;
+}
+
+
+
+
+.menu_derecha{
+  float: right;
+}
+
+
+/*Estilos de prueba (debug)*/
+
+
+/*fin estilos de prueba*/
