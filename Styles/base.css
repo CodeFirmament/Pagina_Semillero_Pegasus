@@ -6,11 +6,6 @@ nav{
   border-bottom: 2px solid white;
 }
 
-nav li:hover{
-  color: #FFDF4F;
-  cursor: pointer;
-}
-
 footer{
   background-color: #000000;
   border-top: white 2px solid; 
@@ -27,20 +22,26 @@ footer p.Popups:hover{
   text-decoration: underline;
 }
 
-ul pre{
-  display: inline;
-}
 
+.buscar{
+  margin: 1em 0em 0em 6em;
+  width: 550px;
+}
 
 .Centro_Pagina{
   width: 70%;
   background-color: white;
-  padding-bottom: 34em;
+  padding-bottom: 4em;
+  margin: auto;
+  text-align: center;
+}
+
+.Centro_Pagina iframe{
   margin: auto;
 }
 
 .Fondo_Arreglado{
-    background-image: url('../src/galaxy-space-nebula-atmosphere-universe-ART-611568-wallhere.com.jpg');
+    background-image: url('../res/galaxy-space-nebula-atmosphere-universe-ART-611568-wallhere.com.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -58,7 +59,7 @@ ul pre{
 }
 
 
-.Titulo_Pagina pre{
+.Titulo_Pagina h1{
   display:inline-block;
   font: 22px arial, sans-serif;
   font-style: bold;
@@ -68,7 +69,7 @@ ul pre{
 }
 
 
-.Titulo_Pagina pre:hover{
+.Titulo_Pagina h1:hover{
   cursor: help;
 }
 
@@ -83,45 +84,101 @@ ul pre{
 }
 
 
-
-/*
-.Titulo_Pagina pre{
-  float: right;
-  font: 22px arial, sans-serif;
-  font-style: bold;
-  color: white;
-  font-weight: 700;
-
-  padding-right: 16em;
-  padding-top: 2em;
-}
-
-.Titulo_Pagina{
-  text-align: center;
-  color: white;
-  padding-bottom: 85px;
-}
-
-.Logo{
-  display: inline;
-  width: 10%;
-  float: left;
-  padding-left: 24em;
-}
-*/
-.navegacion li, .navegacion ul{
-  display: inline;
-  color: white;
-  font: 18px arial, sans-serif;
-}
-
-
-
-
 .menu_derecha{
   float: right;
 }
 
+.Centro_Pagina h2{
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+
+/*Buscar Articulos*/
+
+.buscar{
+ width: 700px;
+}
+
+.buscar_btn{
+  visibility: hidden;
+}
+
+table.Busqueda{
+display: table;
+width: 100%;
+border-collapse: separate;
+border-spacing: 0px;
+border: 1px solid gray;
+}
+
+table.Busqueda tr{
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
+
+table.Busqueda th{
+display: table-cell;
+vertical-align: inherit;
+font-weight: bold;
+text-align: center;
+border: 1px solid gray;
+}
+
+table.Busqueda td{
+    display: table-cell;
+vertical-align: inherit;
+border: 1px solid gray;
+}
+
+
+
+table.Busqueda tfoot{
+display: table-footer-group;
+vertical-align: middle;
+border-color: inherit;
+}
+/*Fin buscar articulos*/
+
+/* Contactanos */
+.Centro_Pagina #form_comentario input{
+ margin-top: 10px; 
+}
+
+.Centro_Pagina #form_comentario{
+  text-align: left;
+}
+
+.Centro_Pagina .icono, .Centro_Pagina #comentario{
+   margin-left: 100px;
+}
+
+.Centro_Pagina .icono{
+  display: inline;
+  width: 3%;
+  margin-right: 10px;
+}
+
+.Centro_Pagina .comentario_btn{
+  margin-left: 100px;
+}
+
+.Centro_Pagina .texto{
+  width: 500px;
+}
+
+.comentario_mapa{
+  padding-top: 50px;
+}
+
+.Centro_Pagina #comentario{
+  margin-top: 10px;
+  padding: 0px 500px 200px 0px;
+  resize: none;
+}
+
+/*Fin contactanos*/
 
 /*Estilos de prueba (debug)*/
 
