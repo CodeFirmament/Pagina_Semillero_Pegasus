@@ -127,7 +127,7 @@ border: 1px solid gray;
 }
 
 table.Busqueda td{
-    display: table-cell;
+display: table-cell;
 vertical-align: inherit;
 border: 1px solid gray;
 }
@@ -139,6 +139,9 @@ display: table-footer-group;
 vertical-align: middle;
 border-color: inherit;
 }
+
+
+
 /*Fin buscar articulos*/
 
 /* Contactanos */
@@ -174,11 +177,57 @@ border-color: inherit;
 
 .Centro_Pagina #comentario{
   margin-top: 10px;
-  padding: 0px 500px 200px 0px;
+  width: 70%;
   resize: none;
 }
 
 /*Fin contactanos*/
+
+/*Resoluciones menores a 1200px*/
+@media (max-width: 1200px){
+/*BUSCAR ARTICULO*/
+.buscar{
+ margin-left: 10px;
+ width: 80%;
+}
+
+.Centro_Pagina iframe{
+  width: 80%;
+}
+
+/*CONTACTANOS*/
+
+.Centro_Pagina #form_comentario input{
+ margin-top: 10px; 
+}
+
+.Centro_Pagina #form_comentario{
+  text-align: left;
+}
+
+.Centro_Pagina .icono, .Centro_Pagina #comentario{
+   margin-left: 10px;
+}
+
+.Centro_Pagina .icono{
+  display: inline;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.Centro_Pagina .comentario_btn{
+  margin-left: 100px;
+}
+
+.Centro_Pagina .texto{
+  width: 80%;
+}
+
+.Centro_Pagina #comentario{
+  margin-left: 50px;
+}
+
+}
 
 /*Estilos de prueba (debug)*/
 
