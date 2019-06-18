@@ -60,9 +60,5 @@ img.idioma_nav{
 /*Tablets & Celulares*/
 @media (max-width: 768px){
 
-.navegacion li a{
-	display: block;
-	width: 50%;
-}
 
 }
