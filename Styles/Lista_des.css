@@ -57,3 +57,12 @@ img.idioma_nav{
   width: 11%;
 }
 
+/*Tablets & Celulares*/
+@media (max-width: 768px){
+
+.navegacion li a{
+	display: block;
+	width: 50%;
+}
+
+}
