@@ -226,8 +226,14 @@ border-color: inherit;
   margin-left: 50px;
 }
 
+
 }
 
+@media (max-width: 720px){
+.footer_1{
+  margin-top: 0px; 
+}
+}
 
 
 
