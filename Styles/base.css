@@ -226,14 +226,11 @@ border-color: inherit;
   margin-left: 50px;
 }
 
-
-}
-
-@media (max-width: 720px){
-
 footer{
-  padding-bottom: 300em;
+  padding-bottom: 14em;
 }  
+
+
 
 }
 
