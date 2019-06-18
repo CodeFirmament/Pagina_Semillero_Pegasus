@@ -231,8 +231,8 @@ border-color: inherit;
 
 @media (max-width: 720px){
 
-.Centro_Pagina{
-  padding-bottom: 0.8em;
+.footer{
+  padding-bottom: 3em;
 }  
 
 }
