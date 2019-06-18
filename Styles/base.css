@@ -229,55 +229,7 @@ border-color: inherit;
 
 }
 
-@media (max-width: 768px){
 
-/*BUSCAR ARTICULO*/
-.buscar{
- margin-left: 10px;
- width: 80%;
-}
-
-.Centro_Pagina iframe{
-  width: 80%;
-}
-
-/*CONTACTANOS*/
-
-.Centro_Pagina #form_comentario input{
- margin-top: 10px; 
-}
-
-.Centro_Pagina #form_comentario{
-  text-align: left;
-}
-
-.Centro_Pagina .icono, .Centro_Pagina #comentario{
-   margin-left: 10px;
-}
-
-.Centro_Pagina .icono{
-  display: inline;
-  width: 20px;
-  margin-right: 10px;
-}
-
-.Centro_Pagina .comentario_btn{
-  margin-left: 100px;
-}
-
-.Centro_Pagina .texto{
-  width: 80%;
-}
-
-.Centro_Pagina #comentario{
-  margin-left: 50px;
-}
-
-/*General*/
-
-
-
-}
 
 
 
