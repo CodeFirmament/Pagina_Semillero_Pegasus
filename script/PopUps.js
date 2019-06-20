@@ -19,10 +19,10 @@ function Pol_Cookies (Lenguaje) {
 
 function TerminosCondiciones(Lenguaje){
     if(Lenguaje=="es"){
-	 alert("Al entrar aqui aceptas vendernos tu alma");
+	 alert("Términos y condiciones");
     }
 	if(Lenguaje=="en"){
-	 alert("Your soul is ours now");
+	 alert("Terms & Conditions");
 	}
 }
 

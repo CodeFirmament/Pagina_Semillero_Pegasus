@@ -24,14 +24,14 @@ footer p.Popups:hover{
 
 
 .buscar{
-  margin: 1em 0em 0em 6em;
+  margin: 1em 0em 10px 6em;
   width: 550px;
 }
 
 .Centro_Pagina{
   width: 70%;
   background-color: white;
-  padding-bottom: 4em;
+  padding-bottom: 12em;
   margin: auto;
   text-align: center;
 }
@@ -182,6 +182,60 @@ border-color: inherit;
 }
 
 /*Fin contactanos*/
+/*/////Resoluciones menores a 1200px*/
+@media (max-width: 1200px){
+/*BUSCAR ARTICULO*/
+.buscar{
+ margin-left: 10px;
+ width: 80%;
+}
+
+.Centro_Pagina iframe{
+  width: 80%;
+}
+
+/*CONTACTANOS*/
+
+.Centro_Pagina #form_comentario input{
+ margin-top: 10px; 
+}
+
+.Centro_Pagina #form_comentario{
+  text-align: left;
+}
+
+.Centro_Pagina .icono, .Centro_Pagina #comentario{
+   margin-left: 10px;
+}
+
+.Centro_Pagina .icono{
+  display: inline;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.Centro_Pagina .comentario_btn{
+  margin-left: 100px;
+}
+
+.Centro_Pagina .texto{
+  width: 80%;
+}
+
+.Centro_Pagina #comentario{
+  margin-left: 50px;
+}
+
+footer{
+  padding-bottom: 14em;
+}  
+
+
+
+}
+
+
+
 
 /*Resoluciones menores a 1200px*/
 @media (max-width: 1200px){
