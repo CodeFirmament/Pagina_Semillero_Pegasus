@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Styles/base.css">
     <link rel="stylesheet" href="Styles/Lista_des.css">
     <script src="script/PopUps.js"></script>
+    <script src="script/Basics.js"></script>
 
     <title>Qubit - Artículos Astronómicos</title>
 </head>
@@ -29,6 +30,7 @@
   <ul class= "menu_izquierda">
     <li class = "menu_seleccionado"><a href="es/index.html">Buscar Artículo</a></li>
     <li><a href="es/Contacto.html">Contáctanos</a></li>
+    <li><img src="res/light-bulb.png" alt="light bulb" class="adaptacion" onclick="Cambiar_Apariencia('Styles/AdaptacionN.css');"></li>
   </ul>
   <ul class = "menu_derecha">
     <li><img src="res/ES64.png" alt="Español" class="idioma_nav">
@@ -37,7 +39,7 @@
         <li><a href="en/index.html"><img src="res/EN64.png" alt="English" class="idioma">Inglés</a></li>
       </ul>  
     </li>
-    <li><a href="">Ingresar</a>
+    <li><a>Ingresar</a>
       <ul>
         <li><a href="">Usuario</a></li>
         <li><a href="">Administrador</a></li>
@@ -57,6 +59,7 @@
       <input type="search" class="buscar" name="buscar" placeholder="Escriba aqui su busqueda y presiona Enter para encontrarla" spellcheck="false" autocomplete="off" accesskey="s">
       <input type="submit" class="buscar_btn" name="buscar_btn">
     </form>
+
     <iframe src="es/PHP/Busqueda.html" frameborder="0" width="800" height="500" scrolling="yes"></iframe>
 
   </div>

@@ -34,15 +34,21 @@ nav.navegacion a:hover{
 }
 
 
-.navegacion li > ul{
+.navegacion li  ul{
 	border-left: 2px solid white;
 	border-right: 2px solid white;
-	border-bottom: 2px solid white,
+	border-bottom: 2px solid white;
 }
 
 .navegacion li:hover > ul{
 	display: block;
 }
+
+
+ img.adaptacion{
+ 	width:2%;
+ 	margin-bottom: 3px;
+ }
 
 
 img.idioma{

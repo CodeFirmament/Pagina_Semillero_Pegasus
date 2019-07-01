@@ -1,0 +1,33 @@
+
+
+.Centro_Pagina{
+	color: beige;
+	background-color:  #333333;
+}
+
+body.Fondo_Arreglado{
+	 background-image: url(''); 
+	 background-color: #8C8C8C;
+}
+
+/*RESULTADOS ??*/
+iframe table.Busqueda{
+border-color: #E6E6E6;
+color: #FFFFFF;
+}
+
+iframe table.Busqueda tr{
+color: inherit;
+border-color: inherit;
+}
+
+iframe table.Busqueda th{
+border: 1px solid #404040;
+color:#FFFFFF;
+}
+
+iframe table.Busqueda td{
+border: 1px solid #404040;
+color:#FFFFFF;
+}
+

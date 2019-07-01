@@ -41,6 +41,7 @@ footer p.Popups:hover{
 }
 
 .Fondo_Arreglado{
+
     background-image: url('../res/galaxy-space-nebula-atmosphere-universe-ART-611568-wallhere.com.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -107,9 +108,11 @@ footer p.Popups:hover{
 table.Busqueda{
 display: table;
 width: 100%;
+background-color: #4D4D4D;
 border-collapse: separate;
 border-spacing: 0px;
 border: 1px solid gray;
+color: beige;
 }
 
 table.Busqueda tr{
@@ -273,12 +276,83 @@ footer{
   margin-left: 100px;
 }
 
+
+
 .Centro_Pagina .texto{
   width: 80%;
 }
 
 .Centro_Pagina #comentario{
   margin-left: 50px;
+}
+
+}
+
+/*Para Moviles pequeños*/
+
+@media (max-width: 490px){
+
+/*GENERAL*/
+.footer_1{
+  width: 40%;
+  float:left;
+  margin-top: 0px;
+  padding-top: 3.4em; 
+}
+.footer_2{
+  margin-left: -11em;
+  float: left;
+}
+
+.Centro_Pagina{
+  margin-top: 1em;
+}
+
+/*BUSCAR ARTICULO*/
+.buscar{
+ margin-left: 10px;
+ width: 80%;
+}
+
+.Centro_Pagina iframe{
+  width: 80%;
+}
+
+/*CONTACTANOS*/
+
+.Centro_Pagina #form_comentario input{
+ margin-top: 10px; 
+
+}
+
+.Centro_Pagina #form_comentario{
+  text-align: left;
+}
+
+.Centro_Pagina .icono, .Centro_Pagina #comentario{
+   margin-left: 10px;
+}
+
+.Centro_Pagina .icono{
+  display: inline;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.Centro_Pagina .comentario_btn{
+  margin-left: 10px;
+}
+
+.Centro_Pagina .resetear_btn{
+  margin-left: auto;
+}
+
+.Centro_Pagina .texto{
+  width: 65%;
+}
+
+.Centro_Pagina #comentario{
+  margin-left: 30px;
 }
 
 }

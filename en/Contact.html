@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../Styles/base.css">
     <link rel="stylesheet" href="../Styles/Lista_des.css">
     <script src="../script/PopUps.js"></script>
+    <script src="../script/Basics.js"></script>
+
 
     <title>Qubit - Artículos Astronómicos</title>
 </head>
@@ -29,6 +31,7 @@
   <ul class= "menu_izquierda">
     <li class = "menu_seleccionado"><a href="index.html">Search Article</a></li>
     <li><a href="Contact.html">Contact us</a></li>
+    <li><img src="../res/light-bulb.png" alt="light bulb" class="adaptacion" onclick="Cambiar_Apariencia('../Styles/AdaptacionN.css');"></li>
   </ul>
   <ul class = "menu_derecha">
     <li><img src="../res/EN64.png" alt="English" class="idioma_nav">
@@ -37,7 +40,7 @@
         <li><a href="index.html"><img src="../res/EN64.png" alt="English" class="idioma">English</a></li>
       </ul>  
     </li>
-    <li><a href="">Log in</a>
+    <li><a>Log in</a>
       <ul>
         <li><a href="">User</a></li>
         <li><a href="">Administrator</a></li>
@@ -59,7 +62,7 @@
       <img src="../res/envelope.png" alt="buscar:" class="icono"><input type="email" name="Dir_email" class="texto" placeholder="Email"><br>
       <img src="../res/user.png" alt="nombre:" class="icono"><input type="text" name="nombre_remitente" class="texto" placeholder="Your name"><br>
       <textarea name="mensaje_remitente" id="comentario" cols="30" rows="10" placeholder="Write your message" minlength="10" maxlength="300"></textarea><br>
-      <input type="submit" value="Send" class="comentario_btn"><input type="reset" value="Reset">
+      <input type="submit" value="Send" class="comentario_btn"><input type="reset" value="Reset" class="resetear_btn">
     </form>
     
     <iframe class="comentario_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237876.58744068767!2d-157.97555314125134!3d21.31806136503912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00183b8cc3464d%3A0x4b28f55ff3a7976c!2sHonolulu%2C+HI%2C+USA!5e0!3m2!1sen!2sco!4v1560478755432!5m2!1sen!2sco" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
