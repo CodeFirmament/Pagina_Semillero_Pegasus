@@ -11,6 +11,9 @@
 ## Introducción
 
 ![alt text][logo]
+
+
+
 La página web está enfocada en una empresa fictica de idea propia, la cuál publica articulos de cualquier tipo      con temática a la astronomía, se pueden explorar varias pestañas donde se pueden ver sus respectivas funciones. En el momento la página está disponible en los lenguajes de inglés y español.
 
 >En el momento, la version actual **Qubit_2** es la desactualizada, se está desarrollando una nueva desde scratch. 
