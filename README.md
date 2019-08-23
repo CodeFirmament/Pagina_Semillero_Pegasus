@@ -44,4 +44,4 @@ Bajo desarrollo
 
 
 
-[logo]:https://github.com/ledzky/Qubit_2/blob/master/res/logoQ.png
+[logo]:https://github.com/ledzky/Qubit_2/blob/master/res/Icon.png
