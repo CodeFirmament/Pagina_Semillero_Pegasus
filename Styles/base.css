@@ -1,0 +1,29 @@
+body {
+  background-color: #2C5AA0;
+}
+
+.titulo {
+  color: white;
+}
+
+img.logo {
+  width: 20%;
+}
+
+.carousel-inner img {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .titulo {
+    font-size: 20px;
+  }
+
+  img.logo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=base.css.map */
