@@ -1,5 +1,16 @@
-body {
+body.wait {
   background-color: #2C5AA0;
+}
+
+body.inicio {
+  background: url(../res/no-own/Large-bg/bg.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-griesp {
+  background-color: #E9ECEF;
 }
 
 .titulo {
@@ -13,6 +24,23 @@ img.logo {
 .carousel-inner img {
   width: 200px;
   height: 200px;
+}
+
+div#Bienvenido_FS {
+  background-color: #E9ECEF;
+}
+
+nav.barra-navegacion a {
+  background-color: #373737;
+}
+
+nav.barra-navegacion div.row a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+div.prueba-espacio {
+  padding-top: 100em;
 }
 
 @media screen and (max-width: 600px) {
