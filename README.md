@@ -1,6 +1,6 @@
 # Webpage for "Semillero Pegasus"
 
-**Note: This is written is spanish due to the project is a university's work.**
+**Note: This is written is spanish due to the project is an university's work.**
 
 |      Contenidos     | 
 | ------------------- |
