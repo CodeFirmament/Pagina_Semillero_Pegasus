@@ -1,0 +1,80 @@
+$color-bg: #2C5AA0;
+$Soft-gray: #373737;
+$blue-special: #A2CAF2;
+$gray-especial: #E9ECEF;
+
+$variable_moviles-600: "max-width: 600px";
+$variable_moviles-650: "max-width: 650px";
+
+body.wait{
+    background-color: $color-bg;
+}
+//../res/no-own/Large-bg/Akira-movie.png
+//../res/no-own/Large-bg/AkiraMovieBackground.jpeg
+body.inicio{
+    background: url(../res/no-own/Large-bg/bg.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-astronauta{
+    background: url(../res/no-own/Large-bg/Astronaut.jpeg);
+}
+
+.bg-pegado{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-griesp{
+    background-color: $gray-especial;
+}
+.titulo{
+    color: white;
+}
+
+img.logo{
+    width:20%;
+}
+//version stand by
+.carousel-inner img{
+    width: 200px;
+    height: 200px;
+}
+
+div#Bienvenido_FS{
+    background-color: #E9ECEF;
+}
+
+nav.barra-navegacion a{
+    background-color: $Soft-gray;
+}
+nav.barra-navegacion div.row a{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+@media screen and ( $variable_moviles-650 ){
+    .titulo, .titulo-responsive {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and ( $variable_moviles-600 ){
+
+.titulo, .titulo-responsive {
+    font-size: 0px;
+}
+.espacio-4-arriba{
+    margin-top: 4em;
+}
+
+img.logo{ 
+    width: 200px;
+    height: 200px;
+}
+
+}
+
+

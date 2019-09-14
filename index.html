@@ -25,56 +25,61 @@
     <!-- Importacion de archivos CSS locales-->
     <link rel="stylesheet" href="Styles/base.css">
 
+    <!--Metadata-->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Scripts propios-->
+
     <!--Redireccionamiento-->
-    <script src="Scripts/TEMP/redirect.js"></script>
+    <!--script src="Scripts/TEMP/redirect.js"></script-->
+
+    <script src="Scripts/Vistosos/autowriting.js"></script>
     <title>For: (SCIENCE)</title>
 
 </head>
-<body class="inicio">
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<body class="bg-astronauta bg-pegado">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+
+  <a href="#" class="navbar-brand">
+      <img src="res/Images/Symmetric Logos/FSimple.png" alt="ForScience" width="30" height="30">
+      <span>For: (SCIENCE)</span>
+  </a>
+
   <ul class="navbar-nav">
 
-    <li class="nav-item">
-      <a class="nav-link" title="forScience">
-        <img src="res/Images/Symmetric Logos/FSimple.png" alt="ForScience" width="30" height="30">
-        <span>For: (SCIENCE)</span>
-      </a>
-    </li>
-
-    <li class="nav-item">
+    <li class="nav-item active">
       <a class="nav-link" href="#" title="Inicio">
-        <img src="res/Images/Navigation/Home.png" alt="Inicio" width="30" height="30">
+        <!--img src="res/Images/Navigation/Home.png" alt="Inicio" width="30" height="30"-->
         <span>inicio</span>
       </a>
     </li>
 
     <li class="nav-item">
       <a class="nav-link" href="#" title="Buscar Publicaciones">
-        <img src="res/Images/Navigation/Buscar_Pub.png" alt="Buscar Publicaciones" width="30" height="30">
+        <!--img src="res/Images/Navigation/Buscar_Pub.png" alt="Buscar Publicaciones" width="30" height="30"-->
         <span>Publicaciones</span>
       </a>
     </li>
 
     <li class="nav-item">
       <a class="nav-link" href="#" title="Biblioteca">
-        <img src="res/Images/Navigation/Lib.png" alt="Biblioteca" width="30" height="30">
+        <!--img src="res/Images/Navigation/Lib.png" alt="Biblioteca" width="30" height="30"-->
         <span>Biblioteca</span>
       </a>
     </li>
 
     <li class="nav-item">
       <a class="nav-link" href="#" title="Foros">
-        <img src="res/Images/Navigation/Forums.png" alt="Foros" width="30" height="30">
+        <!--img src="res/Images/Navigation/Forums.png" alt="Foros" width="30" height="30"-->
         <span>Foros</span>
       </a>
     </li>
 
     <li class="nav-item">
       <a class="nav-link" href="#" title="Noticias">
-        <img src="res/Images/Navigation/Noticias.png" alt="Noticias" width="30" height="30">
+        <!--img src="res/Images/Navigation/Noticias.png" alt="Noticias" width="30" height="30"-->
         <span>Noticias</span>
       </a>
     </li>
@@ -82,25 +87,33 @@
   </ul>
 
 </nav>
-<br>
-<br>
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
 <header>
-    <div class="container">
+    <div class="container espacio-4-arriba">
         <div class="row">
             <div class="col-3"></div>
             <div class="col-3">
                 <img src="res/Images/Symmetric Logos/FS1000x1000.png" alt="ForScience" width="200" height="200">
             </div>
             <div class="col-4">
-                <h1 class="bg-griesp">For:(SCIENCE)!</h1>
-                <p class="bg-griesp"> >_Por la ciencia y computación</p>
+                <h1 class="bg-griesp titulo-responsive">For:(SCIENCE)!</h1>
+                <p class="bg-griesp"> >_<span id="Efecto_Typing"></span></p>
             </div>
             <div class="col-2"></div>
         </div>
     </div>
 </header>
-<br>
-<br>
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
 <section>
     <div class="container">
         <div class="jumbotron">
@@ -121,7 +134,7 @@
                                 <!-- The slideshow -->
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
-                                    <img src="res/Images/Symmetric Logos/FS1000x1000.png" class="mx-auto d-block" alt="For:(SCIENCE)" width="100" height="100">
+                                    <img src="res/Images/Symmetric Logos/FSimple.png" class="mx-auto d-block" alt="For:(SCIENCE)" width="100" height="100">
                                     
                                     <h3>Por la ciencia y la Computación</h3>
                                     <p>
@@ -167,32 +180,43 @@
                             enfocada en la distribución, divulgación y reunión de conocimiento de computación.
                         </p>
                         <br>
-                        <p class="text-justify">
-                            Puedes navegar por el sitio usando la barra de navegacion que flota en la esquina
-                        </p>
+                        <blockquote class="blockquote">
+                          <p>"Estamos a hombros de Gigantes"</p>
+                          <footer class="blockquote-footer">Isaac Newton</footer>
+                        </blockquote>
+
                     </div>
                 </div>
         </div>
     </div>
     <!--div class="prueba-espacio"></div-->
 </section>
-<aside></aside>
+
 <br>
 <br>
-<footer>
-    <div class="container">
+
+<footer class="page-footer bg-light text-dark">
+    <div class="container-fluid">
+        <br><br>
     <div class="row">
-        <div class="col-3">
-                1
+        <div class="col-4">
+              <p class="text-center">Créditos</p>
+              <p class="small text-justify">Hecho por Jorge Gutiérrez
+                  para el semillero Pegasus, sede
+                  Tecnológica. Universidad Distrital
+                  Francisco José de Caldas año 2019
+              </p>
         </div>
-        <div class="col-3">
-                2
+        <div class="col-4">
+                <p class="text-center">Archivos legales</p>
+                <a href="#" class="small text-justify">Ver documentacion</a>
+
         </div>
-        <div class="col-3">
-                3
-        </div>
-        <div class="col-3">
-                4
+        <div class="col-4">
+                <p class="text-center">Páginas web de contacto</p>
+                <p class="small text-justify">My Space</p>
+                <p class="small text-justify">Steam</p>
+                
         </div>
     </div>
     </div>
