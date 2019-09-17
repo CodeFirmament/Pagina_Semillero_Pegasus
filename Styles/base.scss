@@ -6,29 +6,21 @@ $gray-especial: #E9ECEF;
 $variable_moviles-600: "max-width: 600px";
 $variable_moviles-650: "max-width: 650px";
 
+@import "bgs.scss";
+@import "espacios.scss";
+
 body.wait{
     background-color: $color-bg;
 }
-//../res/no-own/Large-bg/Akira-movie.png
-//../res/no-own/Large-bg/AkiraMovieBackground.jpeg
+
 body.inicio{
     background: url(../res/no-own/Large-bg/bg.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-.bg-astronauta{
-    background: url(../res/no-own/Large-bg/Astronaut.jpeg);
-}
 
-.bg-pegado{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.bg-griesp{
-    background-color: $gray-especial;
-}
+
 .titulo{
     color: white;
 }
@@ -45,6 +37,7 @@ img.logo{
 div#Bienvenido_FS{
     background-color: #E9ECEF;
 }
+// find del stand by
 
 nav.barra-navegacion a{
     background-color: $Soft-gray;

@@ -1,3 +1,34 @@
+.bg-astronauta {
+  background: url(../res/no-own/Large-bg/Astronaut.jpeg);
+}
+
+.bg-cafecito {
+  background: url(../res/no-own/Large-bg/beverage-blank-break-997719.jpg);
+}
+
+.bg-colour-azul1 {
+  background-color: #486A8C;
+}
+
+.bg-pegado {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-TodaPantalla {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-griesp {
+  background-color: #E9ECEF;
+}
+
+.espacio-30px-arriba {
+  margin-top: 30px;
+}
+
 body.wait {
   background-color: #2C5AA0;
 }
@@ -7,20 +38,6 @@ body.inicio {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-
-.bg-astronauta {
-  background: url(../res/no-own/Large-bg/Astronaut.jpeg);
-}
-
-.bg-pegado {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.bg-griesp {
-  background-color: #E9ECEF;
 }
 
 .titulo {

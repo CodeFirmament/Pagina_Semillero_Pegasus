@@ -1,0 +1,28 @@
+$azul-1: #486A8C;
+
+.bg-astronauta{
+    background: url(../res/no-own/Large-bg/Astronaut.jpeg);
+}
+
+.bg-cafecito{
+    background: url(../res/no-own/Large-bg/beverage-blank-break-997719.jpg);
+}
+
+.bg-colour-azul1{
+    background-color: $azul-1;
+}
+
+.bg-pegado{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-TodaPantalla{
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.bg-griesp{
+    background-color: $gray-especial;
+}

@@ -1,4 +1,39 @@
 <!DOCTYPE html>
+<!--
+
+  Informacion del proyecto
+
+  Hecho por Jorge Gutierrez, año 2019 usando Visual Studio Code en Linux Mint 19.1 
+  Fueron tomados y modificados a su manera varios ejemplos de w3schools para la realización de varios
+  objetos (como el carrusel o las palabras que se borran y escriben).
+
+  La intención de este proyecto es para la correcta evaluación del
+  semillero de programación web básica del semillero pegasus, con una intención
+  de enfocar más el front-end que el back-end.
+
+  Tecnologías usadas:
+  Visual Studio Code 1.38.1
+  Boostrap 4
+  OS: Linux Mint 19.1
+
+  Lenguajes Usados para el proyecto:
+
+  HTML
+  CSS
+  SASS (precompildor de CSS)
+  Javascript
+  Node.js
+  MySQL
+  PHP
+  Git (control de versiones)
+  
+
+
+  Las páginas fueron
+  probadas en Mozilla Firefox, Google Chrome y Opera.
+
+
+-->
 <html lang="es" xml:lang="es">
 <head>
 
@@ -33,60 +68,53 @@
     <!-- Scripts propios-->
 
     <!--Redireccionamiento-->
-    <script src="Scripts/TEMP/redirect.js"></script>
+    <!--script src="Scripts/TEMP/redirect.js"></script-->
 
     <script src="Scripts/Vistosos/autowriting.js"></script>
     <title>For: (SCIENCE)</title>
 
 </head>
 <body class="bg-astronauta bg-pegado">
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
 
-  <a href="#" class="navbar-brand">
-      <img src="res/Images/Symmetric Logos/FSimple.png" alt="ForScience" width="30" height="30">
-      <span>For: (SCIENCE)</span>
-  </a>
-
-  <ul class="navbar-nav">
-
-    <li class="nav-item active">
-      <a class="nav-link" href="#" title="Inicio">
-        <!--img src="res/Images/Navigation/Home.png" alt="Inicio" width="30" height="30"-->
-        <span>inicio</span>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#" title="Buscar Publicaciones">
-        <!--img src="res/Images/Navigation/Buscar_Pub.png" alt="Buscar Publicaciones" width="30" height="30"-->
-        <span>Publicaciones</span>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#" title="Biblioteca">
-        <!--img src="res/Images/Navigation/Lib.png" alt="Biblioteca" width="30" height="30"-->
-        <span>Biblioteca</span>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#" title="Foros">
-        <!--img src="res/Images/Navigation/Forums.png" alt="Foros" width="30" height="30"-->
-        <span>Foros</span>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#" title="Noticias">
-        <!--img src="res/Images/Navigation/Noticias.png" alt="Noticias" width="30" height="30"-->
-        <span>Noticias</span>
-      </a>
-    </li>
-
-  </ul>
-
-</nav>
+<!-- inicio barra de navegacion-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="res/Images/Symmetric Logos/FSimple.png" alt="ForScience" width="30" height="30">
+        <span>For: (SCIENCE)</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Inicio">
+              <span>Inicio</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Publicaciones">
+              <span>Publicaciones</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Biblioteca">
+              <span>Biblioteca</span>
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" title="Noticias">
+                <span>Noticias</span>
+            </a>
+        </li>     
+        <li class="nav-item">
+            <a class="nav-link" href="#" title="Foros">
+                <span>Foros</span>
+            </a>
+        </li> 
+      </ul>
+    </div>  
+  </nav> 
 
 <br><br>
 <br><br>
@@ -124,14 +152,14 @@
 
                         <div id="Bienvenido_FS" class="carousel slide carrusel-normal" data-ride="carousel">
 
-                                <!-- Indicators -->
+                                <!-- Indicadores -->
                                 <ul class="carousel-indicators">
                                   <li data-target="#Bienvenido_FS" data-slide-to="0" class="active"></li>
                                   <li data-target="#Bienvenido_FS" data-slide-to="1"></li>
                                   <li data-target="#Bienvenido_FS" data-slide-to="2"></li>
                                 </ul>
                               
-                                <!-- The slideshow -->
+                                <!-- El slideshow -->
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
                                     <img src="res/Images/Symmetric Logos/FSimple.png" class="mx-auto d-block" alt="For:(SCIENCE)" width="100" height="100">
@@ -160,7 +188,7 @@
                                   
                                 </div>
                               
-                                <!-- Left and right controls -->
+                                <!-- Controles de izq y derecha -->
                                 <a class="carousel-control-prev" href="#Bienvenido_FS" data-slide="prev">
                                   <span class="carousel-control-prev-icon"></span>
                                 </a>
@@ -189,12 +217,12 @@
                 </div>
         </div>
     </div>
-    <!--div class="prueba-espacio"></div-->
 </section>
 
 <br>
 <br>
 
+<!--Pie de página-->
 <footer class="page-footer bg-light text-dark">
     <div class="container-fluid">
         <br><br>
