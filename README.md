@@ -11,7 +11,7 @@
 
 ## Cambios hechos
 
-_12 de Noviembre, 2019_ : `Reemplazado el branch master por 4 Science, las paginas siguen usando la version antigua, el brench old_master contiene la version antigua denominada **Qubit_2** `
+_12 de Noviembre, 2019_ : `Reemplazado el branch master por 4 Science, las paginas siguen usando la version antigua, el brench old_master contiene la version antigua denominada Qubit_2`
 
 ## Introducción
 
