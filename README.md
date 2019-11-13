@@ -15,7 +15,7 @@ _12 de Noviembre, 2019_ : `Reemplazado el branch master por 4 Science, las pagin
 
 ## Introducción
 
-![alt text][logo]
+![Semillero pegasus](https://github.com/ledzky/Pagina_Semillero_Pegasus/blob/master/res/Images/Symmetric%20Logos/Pegasus.png "Semillero pegasus")
 
 
 
