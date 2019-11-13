@@ -8,6 +8,10 @@
 | Version Qubit_2     |
 | Version for SCIENCE |
 
+## Cambios hechos
+
+_12 de Noviembre, 2019_ : `Reemplazado el branch master por 4 Science, las paginas siguen usando la version antigua`
+
 ## Introducción
 
 ![alt text][logo]
