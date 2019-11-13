@@ -4,6 +4,7 @@
 
 |      Contenidos     | 
 | ------------------- |
+| Cambios hechos      |
 | Introduccion        |
 | Version Qubit_2     |
 | Version for SCIENCE |
