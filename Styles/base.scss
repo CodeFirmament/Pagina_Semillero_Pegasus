@@ -4,7 +4,8 @@ $blue-special: #A2CAF2;
 $gray-especial: #E9ECEF;
 
 $variable_moviles-600: "max-width: 600px";
-$variable_moviles-650: "max-width: 650px";
+$variable_moviles-750: "max-width: 750px";
+$variable_moviles_1000: "max-width: 1000px";
 
 @import "bgs.scss";
 @import "espacios.scss";
@@ -47,7 +48,13 @@ nav.barra-navegacion div.row a{
     padding-bottom: 6px;
 }
 
-@media screen and ( $variable_moviles-650 ){
+@media screen and ($variable_moviles_1000){
+    .titulo, .titulo-responsive{
+        font-size:24px;
+    }
+}
+
+@media screen and ( $variable_moviles-750 ){
     .titulo, .titulo-responsive {
         font-size: 20px;
     }

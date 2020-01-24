@@ -6,6 +6,10 @@
   background: url(../res/no-own/Large-bg/beverage-blank-break-997719.jpg);
 }
 
+.bg-biblioteca {
+  background: url(../res/no-own/Large-bg/Biblioteca.jpg);
+}
+
 .bg-colour-azul1 {
   background-color: #486A8C;
 }
@@ -66,7 +70,12 @@ nav.barra-navegacion div.row a {
   padding-bottom: 6px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
+  .titulo, .titulo-responsive {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 750px) {
   .titulo, .titulo-responsive {
     font-size: 20px;
   }
