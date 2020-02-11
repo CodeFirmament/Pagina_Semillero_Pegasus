@@ -1,0 +1,18 @@
+$var-800px-res: "max-width: 800px";
+
+.anim-expan{
+    transition: width 1s, height 1s;
+}
+
+.anim-expan:hover{
+    width: 20%;
+    height: 20%;
+}
+
+
+@media screen and ($var-800px-res){
+    .anim-expan:hover{
+        width: 35%;
+        height: 35%;
+    }
+}
