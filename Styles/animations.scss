@@ -3,6 +3,15 @@ $book-color-bg: lighten($color-bg, 20%);
 $book-color-border: lighten(#000, 85%);
 $book-border: 1px solid $book-color-border;
 
+/*
+
+CREDITS
+
+Bookshelf: https://co.pinterest.com/pin/316096467570678651/
+
+
+*/
+
 %book-rounded-corners {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
