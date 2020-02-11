@@ -37,6 +37,14 @@
   margin-bottom: 4em;
 }
 
+/*
+
+CREDITS
+
+Bookshelf: https://co.pinterest.com/pin/316096467570678651/
+
+
+*/
 .book::after,
 .book::before, .book img, .book {
   border-top-right-radius: 5px;

@@ -2,7 +2,7 @@ $color-bg: khaki;
 $book-color-bg: lighten($color-bg, 20%);
 $book-color-border: lighten(#000, 85%);
 $book-border: 1px solid $book-color-border;
-
+$var_900px: "max-width: 900px";
 /*
 
 CREDITS
@@ -95,5 +95,4 @@ ul#bookshelf {
 
 .book::before { left: -3px; }
 .book::after { left: -6px; }
-
 
