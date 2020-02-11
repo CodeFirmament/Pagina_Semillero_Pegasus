@@ -42,6 +42,13 @@
   height: 20%;
 }
 
+.merlin-gif {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 @media screen and (max-width: 800px) {
   .anim-expan:hover {
     width: 35%;

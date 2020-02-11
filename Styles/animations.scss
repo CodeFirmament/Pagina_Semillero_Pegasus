@@ -9,6 +9,11 @@ $var-800px-res: "max-width: 800px";
     height: 20%;
 }
 
+.merlin-gif{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
 
 @media screen and ($var-800px-res){
     .anim-expan:hover{
