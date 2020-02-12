@@ -2,6 +2,10 @@
   background: url(../res/no-own/Large-bg/Astronaut.jpeg);
 }
 
+.bg-azul-claro {
+  background-color: #9DD3EB;
+}
+
 .bg-cafecito {
   background: url(../res/no-own/Large-bg/beverage-blank-break-997719.jpg);
 }
@@ -35,6 +39,10 @@
 
 .espacio-4em-abajo {
   margin-bottom: 4em;
+}
+
+.espacio-5em-arriba {
+  margin-top: 4em;
 }
 
 /*
@@ -123,6 +131,10 @@ ul#bookshelf {
 
 .book::after {
   left: -6px;
+}
+
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 body.wait {

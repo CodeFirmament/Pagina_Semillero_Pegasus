@@ -11,6 +11,10 @@ $variable_moviles_1000: "max-width: 1000px";
 @import "espacios.scss";
 @import "animations.scss";
 
+nav{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 body.wait{
     background-color: $color-bg;
 }
