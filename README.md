@@ -23,7 +23,8 @@ _27 de Abril, 2020_ : `Actualizado el archivo README`
 
 La página web está enfocada en una organización fictica sin ánimo de lucro de idea propia, la cuál publica articulos con cierto nivel de calidad y criterio evaluado de cualquier tipo      con temática a la ciencia computacional venida de cualquier persona, se pueden explorar varias pestañas donde se pueden ver sus respectivas funciones. En el momento la página sólo está en español.
 
-¿Interesado en ver la página? [haz clic aquí](https://ledzky.github.io/Pagina_Semillero_Pegasus/ "Pagina")
+~~¿Interesado en ver la página? [haz clic aquí](https://ledzky.github.io/Pagina_Semillero_Pegasus/ "Pagina")~~
+Desactualizado
 
 >El brench master ahora es el mismo brench **for SCIENCE**, ahora se desarrollará en el master
 
